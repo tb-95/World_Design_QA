@@ -1,0 +1,33 @@
+# Finland – Environment Bug Report
+
+**Location:** Finland  
+**Source:** World_Design_QA.pdf, page 4  
+
+---
+
+## Bug List
+
+| ID | Severity | Priority | Description |
+|----|----------|----------|-------------|
+| FI‑01 | Minor | P3 | Visible mesh |
+| FI‑02 | Major | P1 | Yield sign on the road is upside down |
+
+---
+
+## Detailed Bug Descriptions
+
+### FI‑01: Visible mesh
+- **Expected:** No visible mesh/texture clipping.
+- **Actual:** Mesh is visibly protruding or incorrectly rendered.
+- **Impact:** Visual glitch, reduces immersion.
+
+### FI‑02: Yield sign upside down
+- **Expected:** Yield sign oriented correctly (triangle pointing down).
+- **Actual:** Sign is rotated 180° (pointing up).
+- **Impact:** Confuses player;违反了 real-world traffic conventions.
+
+---
+
+
+**Reported by:** Tomáš Bednář  
+**Date:** 2026‑05‑06  
