@@ -1,0 +1,80 @@
+# Greece – Environment Bug Report
+
+**Location:** Greece (map segment)  
+**Source:** World_Design_QA.pdf, page 2  
+
+---
+
+## Bug List
+
+| ID | Severity | Priority | Description |
+|----|----------|----------|-------------|
+| GR‑01 | Major | P1 | Missing full lane |
+| GR‑02 | Major | P1 | No crosswalk while turning left |
+| GR‑03 | Critical | P0 | “Wrong way” sign facing opposite direction |
+| GR‑04 | Major | P1 | Traffic lights serve no purpose here |
+| GR‑05 | Critical | P0 | Road leads nowhere (dead end / incomplete map) |
+| GR‑06 | Medium | P2 | Missing directional arrows on the road |
+| GR‑07 | Medium | P2 | Missing dashed lane + arrow should not be present |
+| GR‑08 | Minor | P3 | Different offset of poles from road guard |
+| GR‑09 | Minor | P3 | One sign partially on sidewalk |
+
+---
+
+## Detailed Bug Descriptions
+
+### GR‑01: Missing full lane
+- **Expected:** A complete, driveable lane.
+- **Actual:** Lane is missing or incomplete.
+- **Impact:** Player cannot navigate correctly; traffic flow broken.
+
+### GR‑02: No crosswalk while turning left
+- **Expected:** Crosswalk marked at left-turn intersection.
+- **Actual:** No crosswalk present.
+- **Impact:** Pedestrian safety / logic violation.
+
+### GR‑03: “Wrong way” sign facing opposite direction
+- **Expected:** Sign faces oncoming traffic.
+- **Actual:** Sign faces away from traffic (opposite direction).
+- **Impact:** Confuses player; game logic error.
+
+### GR‑04: Traffic lights serve no purpose
+- **Expected:** Traffic lights should regulate an intersection.
+- **Actual:** Lights present but no logical intersection or conflicting traffic.
+- **Impact:** Cosmetic + functional redundancy.
+
+### GR‑05: Road leads nowhere
+- **Expected:** Road connects to another segment or meaningful location.
+- **Actual:** Road ends abruptly; dead end not marked.
+- **Impact:** Broken map logic; player gets stuck.
+
+### GR‑06: Missing directional arrows on the road
+- **Expected:** Lane direction arrows painted on asphalt.
+- **Actual:** No arrows present.
+- **Impact:** Player doesn’t know allowed direction.
+
+### GR‑07: Missing dashed lane + arrow should not be there
+- **Expected:** Dashed lane markings or no arrow.
+- **Actual:** Arrow present without proper dashed lane.
+- **Impact:** Visual inconsistency + potential gameplay confusion.
+
+### GR‑08: Different offset of poles from road guard
+- **Expected:** Consistent spacing between poles and guardrail.
+- **Actual:** One or more poles have different offset.
+- **Impact:** Visual inconsistency (minor).
+
+### GR‑09: Sign partially on sidewalk
+- **Expected:** Sign placed fully on grass or pavement edge.
+- **Actual:** Sign intersects sidewalk area.
+- **Impact:** Pedestrian path obstruction + visual clipping.
+
+---
+
+## Environment Notes
+- Some issues may be interconnected (e.g., missing lane + missing arrows).
+- Recommendation: Full intersection redesign or coordinate‑based asset realignment.
+
+---
+
+**Reported by:** Tomáš Bednář  
+**Date:** 2026‑05‑06  
