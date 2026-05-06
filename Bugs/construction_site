@@ -1,0 +1,25 @@
+# Construction Site – Environment Bug Report
+
+**Location:** Construction site  
+**Source:** World_Design_QA.pdf, page 6  
+
+---
+
+## Bug List
+
+| ID | Severity | Priority | Description |
+|----|----------|----------|-------------|
+| CS‑01 | Major | P1 | On the construction site shouldn't be trees |
+
+---
+
+## Detailed Bug Description
+
+### CS‑01: Trees on construction site
+- **Expected:** Construction site cleared of vegetation (trees removed).
+- **Actual:** Fully grown trees present within active construction area.
+- **Impact:** Logical/environmental inconsistency – trees would be removed before building.
+
+---
+
+**Reported by:** Tomáš Bednář
