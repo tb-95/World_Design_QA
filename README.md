@@ -3,29 +3,6 @@
 ## Project Overview
 This repository contains a **systematic QA analysis** of an open‑world map environment. The audit focuses on visual consistency, level design logic, and environmental asset placement. It serves as a portfolio piece for **Game QA** or **Level Design Validation** roles.
 
-## Repository Structure
-World_Design_QA/
-├── Map_Analysis/ # Original map PDF
-│ └── World_Design_QA.pdf
-├── Report/
-│ ├── Bug_report_World_Design_Bednar.pdf
-│ └── screenshots/ # Visual evidence (optional)
-├── bugs/ # Per‑location detailed reports
-│ ├── greece.md
-│ ├── finland.md
-│ ├── sweden.md
-│ ├── construction_site.md
-│ ├── road_guard.md
-│ ├── urban_area.md
-│ ├── missing_area.md
-│ ├── main_street.md
-│ ├── roundabout.md
-│ ├── bridge.md
-│ ├── bus_stop.md
-│ └── general_store.md
-└── README.md
-
-text
 
 ## Bug Report Summary
 A full audit of **48 individual issues** across 12 map segments, classified by type (missing elements, glitched textures, logical errors).
