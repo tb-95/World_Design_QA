@@ -1,7 +1,8 @@
 # Greece – Environment Bug Report
 
 **Location:** Greece (map segment)  
-**Source:** World_Design_QA.pdf, page 2  
+**Source:** World_Design_QA_test_Bednar_polished.pdf, page 2  
+**Coordinates (approx.):** [0, 0, 999, 408]
 
 ---
 
@@ -64,6 +65,24 @@
 - **Impact:** Visual inconsistency (minor).
 
 ### GR‑09: Sign partially on sidewalk
+- **Expected:** Sign placed fully on grass or pavement edge.
+- **Actual:** Sign intersects sidewalk area.
+- **Impact:** Pedestrian path obstruction + visual clipping.
+
+---
+
+## Environment Notes
+- Some issues may be interconnected (e.g., missing lane + missing arrows).
+- Recommendation: Full intersection redesign or coordinate‑based asset realignment.
+
+---
+
+## Screenshot Reference
+See original PDF page 2, image area `[0, 0, 999, 408]`.
+
+---
+
+**Reported by:** Tomáš Bednář### GR‑09: Sign partially on sidewalk
 - **Expected:** Sign placed fully on grass or pavement edge.
 - **Actual:** Sign intersects sidewalk area.
 - **Impact:** Pedestrian path obstruction + visual clipping.
